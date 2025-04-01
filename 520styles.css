@@ -1,0 +1,110 @@
+<style>
+    body {
+      font-family:'Times New Roman', Times, serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    .inls509-title {
+      font-family:'Times New Roman';
+      color: rgb(1, 1, 23);
+      font-size: 2.5em;
+      text-align: center;
+      padding: 20px;
+      background-color:#69adf1;
+      border-radius: 10px;
+      margin-bottom: 10px;
+    }
+
+    nav {
+      background-color: #000;
+      padding: 20px;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav ul li {
+      margin: 0 10px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-size: 1em;
+      padding: 8px 16px;
+      background-color: #222;
+      border-radius: 30px;
+      transition: background-color 0.3s, transform 0.2s;
+    }
+
+    nav ul li a:hover {
+      background-color: #555;
+      transform: scale(1.05);
+    }
+
+    .image-container img {
+      width: 100%;
+      max-width: 800px;
+      height: auto;
+      display: block;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    }
+
+    main {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    section {
+      background: linear-gradient(135deg, #fef7f7, #e6f7ff);
+      border: 3px solid #69adf1;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    .nested-flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 15px;
+      margin-top: 10px;
+    }
+
+    .nested-box {
+      flex: 1 1 150px;
+      background-color: #e6f7ff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      text-align: center;
+    }
+
+    .link-list ul {
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #355f89;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
